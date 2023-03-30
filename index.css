@@ -1,0 +1,32 @@
+/* Write your code here. */
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.main-head {
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+.box {
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.small {
+  width: 100px;
+  height: 100px;
+  background-color: #fbbf24;
+}
+.medium {
+  width: 150px;
+  height: 150px;
+  background-color: #38bdf8;
+}
+.large {
+  width: 200px;
+  height: 200px;
+  background-color: #ec4899;
+}
